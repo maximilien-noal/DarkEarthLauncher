@@ -1,8 +1,8 @@
 # DarkEarthLauncher
 
-Injection code and Windows Forms Launcher so Dark Earth runs without CD access, and on machines with no optical drives.
+Injection code and Windows Forms Launcher so Dark Earth ((c) Kalisto / Microprose) runs without CD access, and on machines with no optical drives.
 
-Compatiblity of Dark Earth :
+Here's what you need to use in order to run Dark Earth :
 - ddrawCompat 0.2.1 needed on Windows Vista and later
 - Windows 95 compatibility mode needed on Windows Vista and later
 - On Windows 10, Dark Earth needs the compatibility shim ForceDirectDrawEmulation instead of the Windows 95 compatibility mode.
