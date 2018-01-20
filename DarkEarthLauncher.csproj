@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\..\..\..\Jeux\ABWFR\DarkEarth\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -107,7 +107,7 @@
     <Content Include="Jeu.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DarkEarthHook\DarkEarthHook.csproj">
+    <ProjectReference Include="DarkEarthHook\DarkEarthHook.csproj">
       <Project>{da97d854-b30a-4b45-b97d-922c18b920d7}</Project>
       <Name>DarkEarthHook</Name>
     </ProjectReference>

@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkEarthLauncher", "DarkEarthLauncher.csproj", "{E6668D16-4885-4ACA-AE0F-457838209EA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkEarthHook", "..\DarkEarthHook\DarkEarthHook.csproj", "{DA97D854-B30A-4B45-B97D-922C18B920D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkEarthHook", "DarkEarthHook\DarkEarthHook.csproj", "{DA97D854-B30A-4B45-B97D-922C18B920D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

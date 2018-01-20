@@ -32,6 +32,7 @@
             this.PlayButton = new System.Windows.Forms.Button();
             this.DeactivateDdrawCompatCheckBox = new System.Windows.Forms.CheckBox();
             this.WarningLabel = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // PlayButton
@@ -67,6 +68,15 @@
             this.WarningLabel.TabIndex = 2;
             this.WarningLabel.Text = "(Utile uniquement si le jeu ne se lance pas)";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(116, 126);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -74,6 +84,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(304, 161);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.WarningLabel);
             this.Controls.Add(this.DeactivateDdrawCompatCheckBox);
             this.Controls.Add(this.PlayButton);
@@ -97,6 +108,7 @@
         private System.Windows.Forms.Button PlayButton;
         private System.Windows.Forms.CheckBox DeactivateDdrawCompatCheckBox;
         private System.Windows.Forms.Label WarningLabel;
+        private System.Windows.Forms.Button button1;
     }
 }
 
