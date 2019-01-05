@@ -51,11 +51,11 @@
             this.DisableDdrawCompatCheckBox.AutoSize = true;
             this.DisableDdrawCompatCheckBox.BackColor = System.Drawing.Color.Transparent;
             this.DisableDdrawCompatCheckBox.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.DisableDdrawCompatCheckBox.Location = new System.Drawing.Point(87, 52);
+            this.DisableDdrawCompatCheckBox.Location = new System.Drawing.Point(70, 52);
             this.DisableDdrawCompatCheckBox.Name = "DisableDdrawCompatCheckBox";
-            this.DisableDdrawCompatCheckBox.Size = new System.Drawing.Size(145, 17);
+            this.DisableDdrawCompatCheckBox.Size = new System.Drawing.Size(185, 17);
             this.DisableDdrawCompatCheckBox.TabIndex = 1;
-            this.DisableDdrawCompatCheckBox.Text = "Désactiver ddrawCompat";
+            this.DisableDdrawCompatCheckBox.Text = "Désactiver le wrapper DirectDraw";
             this.DisableDdrawCompatCheckBox.UseVisualStyleBackColor = false;
             // 
             // WarningLabel
