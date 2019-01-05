@@ -1,5 +1,4 @@
-﻿using DarkEarthLauncher.Hook;
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.IO;
 using System.Reflection;
@@ -10,10 +9,6 @@ namespace DarkEarthLauncher
     public partial class MainForm : Form
     {
         private string _workDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-
-        private System.Windows.Forms.Timer _exitTimer = new Timer();
-
-        private Process _hookedProc;
 
         public MainForm()
         {
@@ -36,13 +31,7 @@ namespace DarkEarthLauncher
 
             try
             {
-                _hookedProc = HookLauncher.Run("dkev.exe");
-
-                this.Visible = false;
-
-                _exitTimer.Tick += _exitTimer_Tick;
-                _exitTimer.Interval = 500;
-                _exitTimer.Enabled = true;
+                Process.Start(Path.Combine(_workDir, "DKEV.EXE"));
             }
             catch (Exception ex)
             {
@@ -74,16 +63,7 @@ namespace DarkEarthLauncher
 
             }
         }
-
-        private void _exitTimer_Tick(object sender, EventArgs e)
-        {
-            _hookedProc.Refresh();
-            if (_hookedProc.HasExited)
-            {
-                Application.Exit();
-            }
-        }
-
+        
         private void SeeDefaultControlsButton_Click(object sender, EventArgs e)
         {
             new ControlsForm().ShowDialog();
